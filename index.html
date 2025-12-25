@@ -27,7 +27,7 @@
 
             <!-- Header Text Part -->
             <section id="header-text-content" class="text-content-header text-center mt-5">
-                <h1 id="page-heading" class="heading-page text-2xl font-bold sm:text-3xl md:text-4xl lg:text-5xl">Apple Iphone 13 Pro Max</h1>
+                <h1 id="page-heading" class="heading-page w-11/12 mx-auto sm:w-full text-2xl font-bold sm:text-3xl md:text-4xl lg:text-5xl">Choose Gadgets & Make Life Easy</h1>
                 <p id="description-overview" class="overview-description w-9/12 mx-auto text-sm font-normal text-[#706F6F] mt-5">There are many variations of passages of Lorem Ipsum available, but the majority <br>   have suffered alteration in some form, by injected humou.</p>
                 <button id="sign-up-btn" class="btn btn-primary bg-[#0D6EFD] border-none shadow-none text-white my-5">Buy Now</button>
             </section>
@@ -42,9 +42,20 @@
                 <!-- Search Bar -->
                 <section id="search-bar-section" class="bar-search-section sm:flex sm:items-center sm:justify-center">
                     <input type="text" name="" id="search-bar" class="bar-search p-2 rounded-sm text-sm block mx-auto w-9/12 my-3 sm:mx-1 sm:w-5/12" placeholder="search your phone">
-                    <button id="sign-up-btn" class="btn btn-primary bg-[#0D6EFD] border-none shadow-none text-white block mx-auto sm:mx-1">Search</button>
+                    <button onclick="handleSearchBtn()" id="search-btn" class="btn btn-primary bg-[#0D6EFD] border-none shadow-none text-white block mx-auto sm:mx-1">Search</button>
                 </section>
             </section>
+
+            <!-- Card Section -->
+            <section id="card-section" class="section-card container mx-auto grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                
+            </section>
+
+
+            <!-- Show All Btn -->
+            <div id="show-all-button" class="button-show-all hidden">
+                <button onclick="handleShowAllBtn()" id="show-all-btn" class="btn btn-primary bg-[#0D6EFD] border-none shadow-none text-white block mx-auto">Show All</button>
+            </div>
             
         </main>
 
